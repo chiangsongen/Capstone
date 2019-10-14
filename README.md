@@ -21,7 +21,7 @@
 1. ETL
 2. EDA, Data cleaning, and Feature engineering
 3. SMOTE and random under sampling
-4. Modelling
+4. Modelling - Logistic regression, Decision tree, Random forest, Gradient boosting, XGBoost
 
 ## Write up
 I decided to have a go at credit loan default prediction due to it being a very practical challenge that banking industry faces. Credit loan default prediction falls under the umbrella of highly imbalance dataset prediction, and its application are applicable to various industries, such as manufacturing, biomedical, finance, government, etc. 
@@ -38,4 +38,18 @@ After cleaning, SMOTE, and under sampling our dataset. the next step would be to
 
 Results were pretty satisfactory with minority recall score of 0.99 and f1 score of 0.92
 
+## Notebook flow
+1. Capstone_import_csv.py 
+- Creating toy sample datasets out of the main dataset.
+- Workings and steps to be done on toy dataset, and when finalised, bring workings to the full dataset.
+- This was to overcome memory limitation.
+
+2. Capstone_sp_1_EDA - upload.ipynb
+- EDA
+- Data cleaning
+- Feature selection 
+
+3. Capstone_qtr1_Modelg.ipynb
+- Rebalance dataset
+- Modelling
 
