@@ -39,17 +39,17 @@ After cleaning, SMOTE, and under sampling our dataset. the next step would be to
 Results were pretty satisfactory with minority recall score of 0.99 and f1 score of 0.92
 
 ## Notebook flow
-1. Capstone_import_csv.py 
+1.  Capstone_import_csv.py 
 - Creating toy sample datasets out of the main dataset.
 - Workings and steps to be done on toy dataset, and when finalised, bring workings to the full dataset.
 - This was to overcome memory limitation.
 
-2. Capstone_sp_1_EDA - upload.ipynb
+2.  Capstone_sp_1_EDA - upload.ipynb / Capstone_full_EDA.ipynb
 - EDA
 - Data cleaning
 - Feature selection 
 
-3. Capstone_qtr1_Modelg.ipynb
+3.  Capstone_qtr1_Modelg.ipynb
 - Rebalance dataset
 - Modelling
 
